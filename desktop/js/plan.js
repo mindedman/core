@@ -614,11 +614,11 @@ var position = {
 html.css('top', position.top); 
 html.css('left', position.left);
 html.css('transform-origin', '0 0'); 
-html.css('transform', 'scale(' + init(_plan.css.zoom, defaultZoom) + ')' + rotate); 
+html.css('transform', 'scale(' + init(_plan.css.zoom, defaultZoom) + ')'); 
 html.css('-webkit-transform-origin', '0 0'); 
-html.css('-webkit-transform', 'scale(' + init(_plan.css.zoom, defaultZoom) + ')' + rotate); 
+html.css('-webkit-transform', 'scale(' + init(_plan.css.zoom, defaultZoom) + ')'); 
 html.css('-moz-transform-origin', '0 0'); 
-html.css('-moz-transform', 'scale(' + init(_plan.css.zoom, defaultZoom) + ')' + rotate);
+html.css('-moz-transform', 'scale(' + init(_plan.css.zoom, defaultZoom) + ')');
 
 html.addClass('noResize'); 
 if (!isset(_plan.display) || !isset(_plan.display.noPredefineSize) || _plan.display.noPredefineSize == 0) { 
